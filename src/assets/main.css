@@ -1,0 +1,151 @@
+/*CSS Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+  }
+
+
+  body {
+    overflow-x: hidden;
+    background-image: linear-gradient(to right top, #c8a676, #d5b089, #e0bb9c, #e9c7b0, #f1d3c3, #edcec0, #eacabd, #e6c5ba, #d7afa1, #c79989, #b78371, #a76e5a);
+  }
+
+#landing {
+  min-height: 610px;
+}
+.profile {
+  height: 350px;
+  width: 350px;
+  border: 2px solid #a76e5a !important;
+}
+
+h1, h2, h3, h4, h5 {
+color: #504538 !important;
+}
+
+  nav {
+    font-weight: bold;
+    background-color: #a76e5a;
+
+  }
+
+  #role {
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .nav-link {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px;
+    color: inherit;
+    transition: color 0.3s ease;
+    font-size: 20px;
+  }
+
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    pointer-events: none;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+
+
+
+  .nav-link {
+    color: white;
+  }
+
+
+
+  #projects {
+    
+  
+  }
+
+  h1 {
+    font-weight: bold;
+    color: #504538;
+    text-align: center;
+  }
+
+  #title-project,  #title-tools, #title-contact{
+    padding-top: 5rem;
+  }
+
+#contact {
+   
+  
+  }
+
+
+  #tools img {
+    max-width: 80px;
+    height: auto;
+  }
+
+
+#button {
+  background: #a76e5a;
+  font-family: "Albert Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#footer{
+  background: #a76e5a;
+  font-family: "Albert Sans", sans-serif;
+  text-align: center;
+  color: #ffeccb;
+}
+  
+
+.card-custom {
+  width: 100%;
+}
+
+
+.map-frame {
+  border: 0;
+  height: 350px;
+  width: 700px;
+  max-width: 100%;
+}
+
+.card {
+  padding: 1.5rem;
+  background-color: #a76e5a;
+}
+
+.card-title {
+  color: #ffeccb !important;
+  font-weight: 900;
+  text-align: center;
+}
+
+.card-text {
+  color: #ffeccb;
+  text-align: center;
+}
